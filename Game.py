@@ -132,7 +132,7 @@ while running:
             end = 1
             screen.blit(ga_ov, (0, 0))
             text = pygame.font.Font("freesansbold.ttf", 48)
-            text = text.render("Вашь результат: {}".format(int(points)), 1, (0, 0, 0))
+            text = text.render("Ваш результат: {}".format(int(points)), 1, (0, 0, 0))
             screen.blit(text, (140, 450))
             top = open('top.txt', 'a')
             top.write(str(int(points)) + '\n')
