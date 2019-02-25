@@ -60,7 +60,8 @@ while running:
                 vi = 50
                 tick_per_second = 40
                 running = True
-
+                pygame.mixer.music.load('fon1.mp3')
+                pygame.mixer.music.play(-1)
 
     if play == 0:
         screen.fill((222, 0, 0))
